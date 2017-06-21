@@ -12,3 +12,20 @@ function sum() {
     }
     window.alert(total);
 }
+// リスト5.3
+function getInformaitonScore(score) {
+  return score.informaiton;
+}
+
+function getEnglishScore(score) {
+    return score.english;
+}
+
+function calculateTotal(scores, getTarget) {
+  var total = 0;
+  for (var index = 0; index < scores.length; index++) {
+    total += getTaget(scores[index]);
+  }
+  return total;
+}
+undefined

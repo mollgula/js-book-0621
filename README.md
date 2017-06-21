@@ -17,7 +17,54 @@
 ### Consoleの実行ログ
 
 ```
-【ここに書く】
+calculateTotal(examinationScore, getInformationScore);
+
+calculateTotal(examinationScores,
+  score => {
+  return score.information;
+});
+
+calculateTotal(examination, score => score.information);
+
+
+var functionVar1 = () = '1st';
+
+function Var()
+
+functionVar1():
+
+var functionVar1 () = '1st';
+
+functionVar1 = () => '1st';
+() => '1st'
+
+functionVar1 = () => '2nd';
+() => '2nd'
+var functionVar1 = function　function1() {return '1st'; };
+undefined
+functionVar1
+function function1() {return '1st'; }
+functionVar1();
+"1st"
+functionVar1();
+"1st"
+console.log(function1);
+
+function function1() { return '1st'; };
+undefined
+var function2 = function1
+undefined
+var function1 = function function2() { return '2nd';};
+undefined
+function1();
+"2nd"
+function2();
+"1st"
+function3();
+function function3() { return '3rd'; };
+"3rd"
+
+
 ```
 
 ### Console以外の動き（もしあれば）
